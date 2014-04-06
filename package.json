@@ -1,0 +1,22 @@
+{
+  "name": "jadephp",
+  "version": "0.0.0",
+  "description": "Command line utility to compile jade source into php files",
+  "main": "index.js",
+  "bin": {
+    "jadephp": "jadephp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Gurupartap Davis",
+  "license": "MIT",
+  "dependencies": {
+    "jade": "~1.3.1",
+    "jade-php": "~0.1.1",
+    "commander": "~2.2.0",
+    "monocle": "~1.1.51",
+    "mkdirp": "~0.3.5"
+  }
+}
